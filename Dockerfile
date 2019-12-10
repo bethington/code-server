@@ -1,4 +1,4 @@
-# docker build -t bethington/code-server .
+# docker build -t --build-arg vscodeVersion=1.40.2 --build-arg githubToken={githubToken} bethington/code-server .
 FROM node:10.16.0
 ARG codeServerVersion=docker
 ARG vscodeVersion
