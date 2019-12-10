@@ -1,3 +1,4 @@
+# docker build -t bethington/code-server .
 FROM node:10.16.0
 ARG codeServerVersion=docker
 ARG vscodeVersion
